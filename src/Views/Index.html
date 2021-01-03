@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no ,initial-scale=1.0, maximun sacale=1.0 , minimum-scale=1.0">
+    <title>Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <!--Css-->
+    <link rel="stylesheet" href="CSS/Index.css">
+    <link rel="stylesheet" href="CSS/Nav.css">
+    <link rel="stylesheet" href="CSS/Boton.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="Ilustraciones/favicon.ico.png" type="image/x-icon">
+</head>
+<body>
+    <section class="general">
+    <section class="textos-header">
+        <h1 style="text-align: center" class="title">JHR DEVELOPER´S</h1>
+        <div class="img-princ">
+    <center>
+        <img src="Ilustraciones/Create.jpg" alt="No se pudo subir la imagen" class="image-progra" width="500" height="500">
+    </center>
+    </div>
+       <!--Navegador-->
+    <center>
+        <nav class="nav">
+            <ul>
+              <li> <a href="#servicios">Servicios</a> </li>
+              <li> <a href="#contacto">Contacto</a> </li>
+              <li> <a href="#acerca">¿Quien soy?</a> </li>
+            </ul>
+          </nav>
+    </center>   
+    </section>  
+    <!--BOTÓN-->
+
+    <div class="container">
+        <div class="boton-home">
+            <a class="home-ico" href="/"><img src="Ilustraciones/Home-r2.png" alt="Facebook.icon" height="65x65"></a>
+        </div>
+    </div>
+
+   
+  <%- include("Servicios.html") %>
+  <%- include("Contacto.html") %>
+  <%- include("Acerca.html") %>
+  <%- include("Partes/Footer.html") %>
+    </section>  
+</body>
+</html>

@@ -1,0 +1,39 @@
+*{
+    margin: 6px 0px 3px;
+    padding: 0;
+}
+footer{
+    background: #111;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+    color: #c08d69;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    line-height: 40px;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
